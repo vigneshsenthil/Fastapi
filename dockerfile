@@ -1,5 +1,7 @@
 FROM mysql/mysql-server
 
+COPY ./requirements.txt /app/requirements.txt
+
 RUN pip install -r requirements.txt
 
 ENV MYSQL_DATABASE=DB \
