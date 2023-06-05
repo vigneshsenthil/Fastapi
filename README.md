@@ -1,4 +1,4 @@
-# Fastapidocker build --tag 'image_name' .
+
 
 To run a file using commands
 
